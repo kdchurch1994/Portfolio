@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Start of Header Section */
 header {
     background-color: rgb(18, 35, 53);
     display: flex;
@@ -44,4 +51,24 @@ header nav ul li a {
     text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
     padding: 10px 15px;
     text-decoration: underline;
+}
+/* End of Header Section/
+
+/* Start of About Me Section */
+#about-me {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#about-me .section-heading {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#about-me .content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
 }
