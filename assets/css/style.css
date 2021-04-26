@@ -55,20 +55,25 @@ header nav ul li a {
 /* End of Header Section/
 
 /* Start of About Me Section */
-#about-me {
+.about{
+    margin: 50px auto;
+    padding-right: 20px;
+    width: 80%;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
-#about-me .section-heading {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: left;
+.about h2 {
+    flex: 1 30%;
+    font-size: 20px;
+    border-right: 4px solid rgba(0, 0, 0, 0.5) 0px 0px 10px;
 }
 
-#about-me .content {
+.about-me p{ 
+    flex: 2 70%;
     display: flex;
     flex-wrap: wrap;
-    text-align: right;
+    align-items: center;
 }
