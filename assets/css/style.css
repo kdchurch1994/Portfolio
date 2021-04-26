@@ -65,13 +65,13 @@ header nav ul li a {
     justify-content: space-between;
 }
 
-.about h2 {
+.about-heading{
     flex: 1 30%;
     font-size: 20px;
     border-right: 4px solid rgba(0, 0, 0, 0.5) 0px 0px 10px;
 }
 
-.about-me p{ 
+.about-p{ 
     flex: 2 70%;
     display: flex;
     flex-wrap: wrap;
