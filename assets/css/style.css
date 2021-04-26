@@ -52,28 +52,137 @@ header nav ul li a {
     padding: 10px 15px;
     text-decoration: underline;
 }
-/* End of Header Section/
+/* End of Header Section */
+
+.body {
+    background-color: rgb(196, 189, 189);
+}
+
 
 /* Start of About Me Section */
-.about{
+
+.about-style {
     margin: 50px auto;
     padding-right: 20px;
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    
+}
+
+.about-heading {
+    border-right: 2px solid  rgb(18, 35, 53);
+    flex: 1 13%;
+    text-align: right;
+}
+
+.about-p {
+    flex: 2 87%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* End of About Me Section */
+
+/* Start of WOrk Section */
+.work-section {
+    margin: 50px auto;
+    padding-right: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-heading {
+    flex: 1 13%;
+    border-right: 2px solid  rgb(18, 35, 53);
+    text-align: right;
+}
+
+.flex-container {
+    flex: 2 87%;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.about-heading{
-    flex: 1 30%;
-    font-size: 20px;
-    border-right: 4px solid rgba(0, 0, 0, 0.5) 0px 0px 10px;
+.first-project {
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-size: cover;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(175, 238, 238);
+    border-image: initial;
+    padding: 20px 0px;
 }
 
-.about-p{ 
-    flex: 2 70%;
+.additional-projects {
+    width: 45%;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-size: cover;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(175, 238, 238);
+    border-image: initial;
+    padding: 20px 0px;
+}
+/* End of Work Section */
+
+/* Start of Contact Section */
+.contact-section {
+    margin: 50px auto;
+    padding-right: 20px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
 }
+
+.contact-heading {
+    flex: 1 13%;
+    border-right: 2px solid  rgb(18, 35, 53);
+    text-align: right;
+}
+
+.contact-info {
+    flex: 2 87%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-info ul li a {
+    color: rgb(18, 35, 53);
+    font-size: 1.55vw;
+    padding: 10px 15px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
